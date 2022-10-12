@@ -1,6 +1,5 @@
 # LU_decomposition
 import numpy as np
-from sympy import Matrix
 import sys
 
 M = np.array([[5., 7., 9., 10., 1.],
