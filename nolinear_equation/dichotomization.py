@@ -19,6 +19,7 @@ def dichotomization(intv_beg_pnt, intv_end_pnt):
     print(x)  # print x in adverse
 
 
-intv_beg_pnt = 0
-intv_end_pnt = 1
-dichotomization(intv_beg_pnt, intv_end_pnt)
+if __name__ == "__main__":
+    intv_beg_pnt = 0
+    intv_end_pnt = 1
+    dichotomization(intv_beg_pnt, intv_end_pnt)

@@ -24,7 +24,8 @@ def L(x, y, num):
     return s
 
 
-_x = np.array([-1, 0, 1])
-_y = np.array([0.3679, 1.0000, 2.7182])
-x = float(input())
-print(L(x, _y, _x))
+if __name__ == "__main__":
+    _x = np.array([-1, 0, 1])
+    _y = np.array([0.3679, 1.0000, 2.7182])
+    x = float(input())
+    print(L(x, _y, _x))
