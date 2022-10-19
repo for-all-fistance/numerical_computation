@@ -16,11 +16,10 @@
 |   `-- ordinary_differential_equation
 |       |-- Runge_Kutta_method.py
 |       |-- improved_euler_method.py
-|       `-- ouler_method.py
+|       `-- euler_method.py
 |-- linear_equation_group
 |   |-- direct_solution
 |   |   |-- LU_decomposition.py
-|   |   |-- __pycache__
 |   |   `-- gauss_elimination.py
 |   `-- iteration_solution
 |       |-- SOR.py
